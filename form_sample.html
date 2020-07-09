@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table,th,td{
+                border : 1px solid black;
+            }
+            th{
+                text-align : left;
+            }
+            table{
+                background-color :pink;
+            }
+            .x{
+                margin-left:100%
+
+            }
+        </style>
+    </head>
+    <body>
+        <table style="width:50%">
+            <tr>
+                <th>Your Name</th> <td><form><label for="name"></label>
+                    <input type ="name" id="name" name="Name">
+                </form>
+                
+                <th></th>
+
+            </tr>
+            <tr>
+                <td> Enter Password</td>
+                <td><form><label for="pwd"></label>
+                    <input type ="password" id="pwd" name="pwd" maxlength="6">
+                </form>
+                </td>
+            </tr>
+                <tr> <td> Skills</td>
+                    <td>
+                <form>
+                    <input type="checkbox" id="css" name="css">
+                    <label for="CSS">CSS</label>
+                    <input type="checkbox" id="JavaScript" name="JavaScript">
+                    <label for="JavaScript">JavaScript</label>
+                    <input type="checkbox" id="JQuery" name="JQuery">
+                    <label for="JQuery">JQuery</label>
+
+
+                </form>
+            </td>
+                
+                
+                </tr>
+                <tr> <td> Upload Resume</td>
+                    <td>
+                        <label for="myfile"></label>
+                        <input type="file" id="myfile" name="myfile">
+                    </td>
+
+                </tr>
+                <tr> <td> You are</td><td>
+                    <form>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="male">Female</label>
+                    </form>
+                </td></tr>
+                <tr> <td> Country</td>
+                    <td>
+                        <form>
+                            <label for="country"></label>
+                            <select id="country">
+                                <option value="India" selected>India
+                                </option>
+                                <option value="USA">USA
+                                </option>
+                                <option value="Russia">Russia
+                                </option>
+                                <option value="UK">UK
+                                </option>
+                            </select>
+                        </form>
+                    </td>
+                </tr>
+                <footer>
+                <tr><th><form>
+                    
+                    <input class="x" type="submit" value="Submit Here" ></form></th></tr>
+            
+        </footer>
+        </table>
+        </body>
+
+</html>
